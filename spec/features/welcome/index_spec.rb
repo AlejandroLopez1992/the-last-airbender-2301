@@ -16,6 +16,7 @@ describe 'Welcome Index' do
       select 'Fire Nation', from: "nation"
       click_button "Search For Members"
 
+      expect(page.status_code).to eq(200)
       expect(current_path).to eq("/search")
     end
   end

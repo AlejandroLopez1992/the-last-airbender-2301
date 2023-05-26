@@ -228,9 +228,37 @@
           1,
           1,
           null,
-          2,
+          1,
           null,
           null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrolopez/turing_work/3mod/independent_challenges/the-last-airbender-2301/spec/features/welcome/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          0,
           null,
           null,
           null,
@@ -256,12 +284,20 @@
           1,
           null,
           1,
+          1,
           null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1685129232
+    "timestamp": 1685131238
   }
 }
