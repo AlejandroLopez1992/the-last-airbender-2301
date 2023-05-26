@@ -1,5 +1,5 @@
-<h1>Fire Nation Members: <%= @characters.count %></h1>
-<% @characters.each do |person| %>
+<h1>Fire Nation Members: <%= @facade.characters.count %></h1>
+<% @facade.characters.each do |person| %>
   <div id="person-<%=person.id%>">
     <ul class="person">
       <li class="name">Name:<%= person.name %></li>
