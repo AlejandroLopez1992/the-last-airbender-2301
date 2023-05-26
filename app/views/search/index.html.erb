@@ -1,16 +1,16 @@
 <h1>Fire Nation Members: <%= @characters.count %></h1>
 <% @characters.each do |person| %>
-  <div id="person-<%=person["_id"]%>">
+  <div id="person-<%=person.id%>">
     <ul class="person">
-      <li class="name">Name:<%= person["name"] %></li>
-      <li class="photoURL">Photo:<% if person["photoUrl"] != nil %>
-        <%= image_tag("#{person["photoUrl"]}.jpg") %></li>
+      <li class="name">Name:<%= person.name %></li>
+      <li class="photoURL">Photo:<% if person.photo != nil %>
+        <%= image_tag("#{person.photo}.jpg") %></li>
         <% else %>
           <%= "None" %>
       <% end %>
-      <li class="allies">Allies:<%= person["allies"].join(", ") %></li>
-      <li class="enemies">Enemies:<%= person["enemies"].join(", ") %></li>
-      <li class="affiliation">Affiliation:<%= person["affiliation"] %></li>
+      <li class="allies">Allies:<%= person.allies %></li>
+      <li class="enemies">Enemies:<%= person.enemies %></li>
+      <li class="affiliation">Affiliation:<%= person.affiliation %></li>
     </ul>
   </div>
 <% end %>

@@ -228,11 +228,66 @@
           1,
           1,
           null,
-          0,
+          2,
           null,
           null,
           null,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrolopez/turing_work/3mod/independent_challenges/the-last-airbender-2301/spec/features/welcome/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrolopez/turing_work/3mod/independent_challenges/the-last-airbender-2301/spec/poros/character_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -246,10 +301,45 @@
           null,
           null,
           null,
+          null,
           1,
+          61,
+          61,
+          61,
+          61,
+          61,
+          61,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrolopez/turing_work/3mod/independent_challenges/the-last-airbender-2301/app/controllers/search_controller.rb": {
+        "lines": [
           1,
+          null,
           1,
+          3,
+          null,
+          null,
+          3,
+          null,
+          3,
+          null,
+          3,
+          60,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrolopez/turing_work/3mod/independent_challenges/the-last-airbender-2301/app/controllers/application_controller.rb": {
+        "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/alejandrolopez/turing_work/3mod/independent_challenges/the-last-airbender-2301/app/controllers/welcome_controller.rb": {
+        "lines": [
           1,
           1,
           null,
@@ -257,6 +347,6 @@
         ]
       }
     },
-    "timestamp": 1685134214
+    "timestamp": 1685134680
   }
 }
