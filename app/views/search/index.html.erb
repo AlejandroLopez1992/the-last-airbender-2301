@@ -8,8 +8,8 @@
         <% else %>
           <%= "None" %>
       <% end %>
-      <li class="allies">Allies:<%= person["allies"] %></li>
-      <li class="enemies">Enemies:<%= person["enemies"] %></li>
+      <li class="allies">Allies:<%= person["allies"].join(", ") %></li>
+      <li class="enemies">Enemies:<%= person["enemies"].join(", ") %></li>
       <li class="affiliation">Affiliation:<%= person["affiliation"] %></li>
     </ul>
   </div>

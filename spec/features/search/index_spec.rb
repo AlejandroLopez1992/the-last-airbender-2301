@@ -25,16 +25,16 @@ describe "Search index page" do
       within("#person-#{@characters[0]["_id"]}") do
         expect(page).to have_content(@characters[0]["name"])
         expect(page).to have_content("None")
-        expect(page).to have_content(@characters[0]["allies"])
-        expect(page).to have_content(@characters[0]["enemies"])
+        expect(page).to have_content(@characters[0]["allies"].join(", "))
+        expect(page).to have_content(@characters[0]["enemies"].join(", "))
         expect(page).to have_content(@characters[0]["affiliation"])
       end
 
       within("#person-#{@characters[1]["_id"]}") do
         expect(page).to have_content(@characters[1]["name"])
         expect(page).to have_content(@characters[1]["photoURL"])
-        expect(page).to have_content(@characters[1]["allies"])
-        expect(page).to have_content(@characters[1]["enemies"])
+        expect(page).to have_content(@characters[1]["allies"].join(", "))
+        expect(page).to have_content(@characters[1]["enemies"].join(", "))
         expect(page).to have_content(@characters[1]["affiliation"])
       end
     end
