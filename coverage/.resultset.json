@@ -339,14 +339,26 @@
           1,
           6,
           null,
-          null,
-          6,
-          null,
           6,
           null,
           6,
           120,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrolopez/turing_work/3mod/independent_challenges/the-last-airbender-2301/app/services/nation_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          6,
+          null,
+          null,
+          6,
+          null,
+          6,
           null,
           null
         ]
@@ -360,6 +372,6 @@
         ]
       }
     },
-    "timestamp": 1685134997
+    "timestamp": 1685135372
   }
 }

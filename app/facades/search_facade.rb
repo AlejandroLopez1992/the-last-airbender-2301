@@ -4,14 +4,11 @@ class SearchFacade
   end
 
   def characters
-    conn = Faraday.new(url: "https://last-airbender-api.fly.dev") do |faraday|
-    end
+    service = NationService.new
 
-    response = conn.get("/api/v1/characters?affiliation=Fire+Nation")
+    json = service.characters_by_nation(@nation)
 
-    data = JSON.parse(response.body, symbolize_names: true)
-
-    @characters = data.map do |character_data|
+    @characters = json.map do |character_data|
       Character.new(character_data)
     end
   end
