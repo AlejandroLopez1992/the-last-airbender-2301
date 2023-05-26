@@ -9,6 +9,5 @@ class SearchController < ApplicationController
     data = JSON.parse(response.body, symbolize_name: true)
 
     @characters = data
-    require 'pry'; binding.pry
   end
 end
