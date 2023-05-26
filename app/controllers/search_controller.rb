@@ -8,6 +8,8 @@ class SearchController < ApplicationController
 
     data = JSON.parse(response.body, symbolize_name: true)
 
-    @characters = data
+    @characters = data.map do |character_data|
+      Character.new(character_data)
+    end
   end
 end
